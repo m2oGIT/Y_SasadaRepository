@@ -1,0 +1,27 @@
+/**
+ * Copyright 2015 EIS Co., Ltd. All rights reserved.
+ */
+
+package Java001;
+
+/**
+ * @author 笹田　裕介 <br />
+ *         eclipse上でコンパイル <br />
+ *         コンパイルが正常終了することを確認 <br />
+ *         更新履歴 2015/12/06（更新者）：笹田　裕介：新規作成 <br />
+ */
+public class Test02 {
+
+  /**
+   * メインメソッド <br />
+   * 改行して出力 <br />
+   * 
+   * @param args
+   */
+  public static void main( String[] args ) {
+    // TODO 自動生成されたメソッド・スタブ
+    System.out.println( "ようこそJava勉強会へ。\n"
+        + "これは2つ目のJavaプログラムです。" );
+  }
+
+}
