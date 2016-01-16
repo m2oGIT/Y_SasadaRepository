@@ -34,46 +34,24 @@ public class Test07 {
   }
 
   /**
-   * addƒƒ\ƒbƒh <br />
-   * ˆø”ŠÔ‚Ì‘˜a‚ğ‹‚ß‚é <br />
-   */
-
-  private static int num1 = 0;
-  private static int num2 = 0;
-  private static int sum2 = 0;
-
-  /**
-   * num‚Ìİ’è<br />
-   * num‚Ì’l‚ğİ’è‚·‚éB <br />
-   *
-   * @param args1 İ’è‚·‚é’l1
-   * @param args2 İ’è‚·‚é’l2
-   */
-
-  public static void setNum( int args1, int args2 ) {
-
-    // “n‚³‚ê‚½ˆø”‚ğİ’è‚·‚é
-    num1 = args1;
-    num2 = args2;
-
-  }
-
-  /**
    * sum‚Ì•Ô‹p <br />
    * sum‚Ì’l‚ğ•Ô‹p‚·‚éB <br />
-   *
-   * @return sum “n‚³‚ê‚½ˆø”ŠÔ‚Ì®”‚Ì‘˜a
+   * 
+   * @param a ˆø”1
+   * @param b ˆø”2
+   * @return sum2 “n‚³‚ê‚½ˆø”ŠÔ‚Ì®”‚Ì‘˜a
    */
 
-  public static int getSum() {
+  public static int getSum( int a, int b ) {
+    int sum2 = 0;
 
     // Àsˆø”‚Ì‘å¬”»’è‚ğs‚¢Aˆø”ŠÔ‚Ì®”‚Ì‘˜a‚ğ‹‚ß‚é
-    if ( num1 < num2 ) {
-      for ( int i = num1 + 1; i < num2; i++ ) {
+    if ( a < b ) {
+      for ( int i = a + 1; i < b; i++ ) {
         sum2 = sum2 + i;
       }
-    } else if ( num2 < num1 ) {
-      for ( int i = num2 + 1; i < num1; i++ ) {
+    } else if ( b < a ) {
+      for ( int i = b + 1; i < a; i++ ) {
         sum2 = sum2 + i;
       }
     }

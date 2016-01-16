@@ -24,12 +24,8 @@ public class Test10 {
     // b：実行時引数を整数型として格納する
     int b = Integer.parseInt( args[1] );
 
-    // 自作クラス（static）を呼び出す
-    // 実行時引数を設定するを呼び出す
-    Test07.setNum( a, b );
-
     // addメソッドで計算した実行時引数間の整数の総和を表示する
-    System.out.print( args[0] + " と " + args[1] + " の間の整数の総和は " + Test07.getSum() + " です" );
+    System.out.print( args[0] + " と " + args[1] + " の間の整数の総和は " + Test07.getSum( a, b ) + " です" );
 
   }
 
