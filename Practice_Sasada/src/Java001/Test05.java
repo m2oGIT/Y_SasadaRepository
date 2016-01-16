@@ -16,11 +16,9 @@ public class Test05 {
    * メインメソッド <br />
    * 起動時引数を表示 <br />
    * 
-   * @param args
+   * @param args 実行時引数
    */
   public static void main( String[] args ) {
-    // TODO 自動生成されたメソッド・スタブ
-    // args new String[3]
     // args[0] = "私の戦闘力は"
     // args[1] = "53"
     // args[2] = "10000"

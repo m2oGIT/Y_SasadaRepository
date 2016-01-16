@@ -16,10 +16,9 @@ public class Test02 {
    * メインメソッド <br />
    * 改行して出力 <br />
    * 
-   * @param args
+   * @param args 実行時引数
    */
   public static void main( String[] args ) {
-    // TODO 自動生成されたメソッド・スタブ
     System.out.println( "ようこそJava勉強会へ。\n"
         + "これは2つ目のJavaプログラムです。" );
   }

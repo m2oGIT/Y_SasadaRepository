@@ -16,11 +16,9 @@ public class Test04 {
    * メインメソッド <br />
    * 起動時引数を表示 <br />
    * 
-   * @param args
+   * @param args 実行時引数
    */
   public static void main( String[] args ) {
-    // TODO 自動生成されたメソッド・スタブ
-    // args new String[1]
     // args[0] = "こんにちは"
     // args[1] = "おはよう"
     System.out.println( args[1] );

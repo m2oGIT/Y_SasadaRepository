@@ -16,10 +16,9 @@ public class Test03 {
    * メインメソッド <br />
    * 改行して出力 <br />
    * 
-   * @param args
+   * @param args 実行時引数
    */
   public static void main( String[] args ) {
-    // TODO 自動生成されたメソッド・スタブ
     System.out.println( "2015年11月01日(Sun)\n"
         + "Javaの演習問題です。\n"
         + "eclipseで色々と試行錯誤しながら進めてみましょう。\n"

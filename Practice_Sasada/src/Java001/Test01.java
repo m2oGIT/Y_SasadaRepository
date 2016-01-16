@@ -16,7 +16,7 @@ public class Test01 {
    * メインメソッド <br />
    * ハローワールド <br />
    * 
-   * @param args
+   * @param args 実行時引数
    */
   public static void main( String[] args ) {
 
