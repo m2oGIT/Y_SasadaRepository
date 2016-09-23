@@ -1,0 +1,72 @@
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\eclipse\workspace\git\Y_SasadaRepository
+\Practice_Sasada\src\MySQL003s\Script_001.sql
+Query OK, 0 rows affected (0.91 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\eclipse\workspace\git\Y_SasadaRepository
+\Practice_Sasada\src\MySQL003s\Script_002.sql
+Query OK, 1 row affected (0.26 sec)
+
+Query OK, 1 row affected (0.13 sec)
+
+Query OK, 1 row affected (0.13 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> SELECT * FROM moeiwast_eiwatest_DB01.test01_sa
+sada;
++-------------+-----------+--------------+-----------+-------------+
+| STAFF_NO    | OFFICE_CD | STAFF_NAME   | WORK_TIME | CREATE_DATE |
++-------------+-----------+--------------+-----------+-------------+
+| 10000000001 | 1         | 東京　太郎   |       185 | 2015-01-01  |
+| 10000000002 | 2         | 千葉　次郎   |       230 | 2015-02-01  |
+| 10000000003 | 1         | 神奈川　花子 |       140 | 2015-03-01  |
++-------------+-----------+--------------+-----------+-------------+
+3 rows in set (0.01 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\eclipse\workspace\git\Y_SasadaRepository
+\Practice_Sasada\src\MySQL003s\Script_003.sql
+Query OK, 1 row affected (0.24 sec)
+
+Query OK, 1 row affected (0.13 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> SELECT * FROM moeiwast_eiwatest_DB01.test01_sa
+sada;
++-------------+-----------+--------------+-----------+-------------+
+| STAFF_NO    | OFFICE_CD | STAFF_NAME   | WORK_TIME | CREATE_DATE |
++-------------+-----------+--------------+-----------+-------------+
+| 10000000001 | 1         | 東京　太郎   |       185 | 2015-01-01  |
+| 10000000004 | 3         | 大阪　恵     |       190 | 2015-04-01  |
+| 10000000003 | 1         | 神奈川　花子 |       140 | 2015-03-01  |
++-------------+-----------+--------------+-----------+-------------+
+3 rows in set (0.15 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\eclipse\workspace\git\Y_SasadaRepository
+\Practice_Sasada\src\MySQL003s\Script_004.sql
+Query OK, 3 rows affected (0.13 sec)
+Rows matched: 3  Changed: 3  Warnings: 0
+
+MariaDB [moeiwast_eiwatest_DB01]> SELECT * FROM moeiwast_eiwatest_DB01.test01_sa
+sada;
++-------------+-----------+--------------+-----------+-------------+
+| STAFF_NO    | OFFICE_CD | STAFF_NAME   | WORK_TIME | CREATE_DATE |
++-------------+-----------+--------------+-----------+-------------+
+| 10000000001 | 1         | 東京　太郎   |       185 | 2016-09-24  |
+| 10000000004 | 3         | 大阪　恵     |       190 | 2016-09-24  |
+| 10000000003 | 1         | 神奈川　花子 |       140 | 2016-09-24  |
++-------------+-----------+--------------+-----------+-------------+
+3 rows in set (0.14 sec)
+
+MariaDB [moeiwast_eiwatest_DB01]> \. C:\eclipse\workspace\git\Y_SasadaRepository
+\Practice_Sasada\src\MySQL003s\Script_005.sql
+Query OK, 3 rows affected (0.65 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 3 rows affected (0.38 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 3 rows affected (0.71 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+MariaDB [moeiwast_eiwatest_DB01]>
+
+
+
+

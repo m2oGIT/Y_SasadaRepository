@@ -1,0 +1,57 @@
+MariaDB [(none)]> INSERT INTO moeiwast_eiwatest_DB01.test_table (INT_NUM, NAME_S
+TR, DBL_NUM, CREATE_DATE) VALUES (12345, 'ù“c—T‰î', 3.1412, '2016/07/23');
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [(none)]> SELECT * FROM moeiwast_eiwatest_DB01.test_table WHERE NAME_STR
+ LIKE 'ù“c—T‰î';
++---------+----------+---------+-------------+
+| INT_NUM | NAME_STR | DBL_NUM | CREATE_DATE |
++---------+----------+---------+-------------+
+|   12345 | ù“c—T‰î |   3.141 | 2016-07-23  |
++---------+----------+---------+-------------+
+1 row in set (0.00 sec)
+
+MariaDB [(none)]> UPDATE moeiwast_eiwatest_DB01.test_table SET CREATE_DATE = '20
+17/01/01' WHERE INT_NUM = '12345';
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [(none)]> UPDATE moeiwast_eiwatest_DB01.test_table SET CREATE_DATE = '20
+16/07/23' WHERE INT_NUM = '12345';
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [(none)]> SELECT * FROM moeiwast_eiwatest_DB01.test_table;
++---------+----------------------+---------+-------------+
+| INT_NUM | NAME_STR             | DBL_NUM | CREATE_DATE |
++---------+----------------------+---------+-------------+
+|       1 | ƒeƒXƒg‘¾˜Y           | 123.456 | 2010-01-01  |
+|       2 | ‚`‚a‚b‚c‚d‚e‚f       |   0.456 | 2013-02-02  |
+|       3 | ABCDEFG              | 999.999 | 2015-03-03  |
+|       4 | ‚P‚Q‚R‚S‚T‚U‚V‚W‚X‚O |    NULL | 2015-04-04  |
+|   12345 | ù“c—T‰î             |   3.141 | 2016-07-23  |
+|   99999 | 1234567890           |   0.000 | 2016-05-05  |
++---------+----------------------+---------+-------------+
+6 rows in set (0.00 sec)
+
+MariaDB [(none)]> \. C:\eclipse\workspace\git\Y_SasadaRepository\Practice_Sasada
+\src\MySQL001\Script_001.sql
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++---------+----------------------+---------+-------------+
+| INT_NUM | NAME_STR             | DBL_NUM | CREATE_DATE |
++---------+----------------------+---------+-------------+
+|       5 | ƒtƒŠ[ƒU             | 530.000 | 2087-12-31  |
+|   12345 | ù“c—T‰î             |   3.141 | 2016-07-23  |
+|   99999 | 1234567890           |   0.000 | 2016-05-05  |
+|       4 | ‚P‚Q‚R‚S‚T‚U‚V‚W‚X‚O |    NULL | 2015-04-04  |
+|       3 | ABCDEFG              | 999.999 | 2015-03-03  |
+|       2 | ‚`‚a‚b‚c‚d‚e‚f       |   0.456 | 2013-02-02  |
+|       1 | ƒeƒXƒg‘¾˜Y           | 123.456 | 2010-01-01  |
++---------+----------------------+---------+-------------+
+7 rows in set (0.00 sec)
+
+MariaDB [(none)]>

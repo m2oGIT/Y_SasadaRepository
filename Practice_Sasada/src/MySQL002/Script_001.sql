@@ -1,0 +1,8 @@
+                                                                                                                                                                    
+    INSERT INTO moeiwast_eiwatest_DB01.test_table (INT_NUM, NAME_STR, DBL_NUM, CREATE_DATE)                                                                                                                                                             
+     VALUES ( 5, '笹田裕介', 530.000, '2087/12/31');                                                                                                                                                               
+                                                                                                                                                                    
+    UPDATE moeiwast_eiwatest_DB01.test_table SET NAME_STR = 'フリーザ' WHERE INT_NUM = '5';                                                                                                                           
+                                                                                                                                                                    
+    SELECT * FROM moeiwast_eiwatest_DB01.test_table ORDER BY CREATE_DATE DESC;                                                                                                                   
+                                                                                                                                                                    

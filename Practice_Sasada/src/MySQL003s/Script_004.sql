@@ -1,0 +1,1 @@
+UPDATE moeiwast_eiwatest_DB01.test01_sasada SET CREATE_DATE = CURDATE();
