@@ -41,18 +41,26 @@ public class Servlet_002 extends HttpServlet {
     pw.println("<body>");
     pw.println("<h1><font color=\"red\"></font></h1>");
     //h1はヘッダー１：太字
+    /**
+    * <p>入力文字列の反復表示処理</p>
+    * <p>複数人の身長を読み込み、標準体重を表示する。</p>
+    * <p>標準体重＝（身長-100）×0.9</p>
+    *    
+    * @author EIS 笹田裕介<br/>
+    * 更新履歴<br>
+    * 2017/01/14：EIS 笹田裕介：更新<br/>
+    */
     String param = request.getParameter("param");
     String[] sintyo = param.split(",", 0);
     int sintyo2;
     double taiju;
-    for ( int i = 1; i <= sintyo.length ; i++ ) {
+    for ( int i = 0; i < sintyo.length; i++ ) {
       sintyo2 = Integer.parseInt(sintyo[i]);
       taiju = (sintyo2 - 100) * 0.9;
-      pw.print(taiju);
+      pw.println(taiju+"<br>");
+      System.out.println(sintyo2);
+      System.out.println(taiju);
       }
-    
-    // 入力値を標準出力する
-    System.out.println(param);
     
     pw.println("</body>");
     pw.println("</html>");
